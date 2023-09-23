@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="index.css">
+    <title>vente</title>
+</head>
+
+<body>
+    <form name="formulaire" class="formulaire">
+        <div id="text">
+            <h1>Site de vente</h1>
+        </div>
+
+        <fieldset>
+            <legend>Imformation Personnelle</legend>
+            <input type="texte" placeholder="name">
+            <input type="email" placeholder="email">
+            <input type="number" placeholder="passeword">
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Q´aimeriez vous acheter aujourd`hui</legend>
+            <select name="fruit" id="fruit">
+                <option value="" selected>Selectionner un fruit</option>
+                <option value="Orange">Orange</option>
+                <option value="Mangue">Mangue</option>
+                <option value="Citron">Citron</option>
+            </select>
+        </fieldset>
+
+
+        <button onclick="additioner()" type="button">Additioner</button>
+        <button onclick="finaliser()" type="button">Finalser</button>
+
+    </form>
+
+</body>
+
+</html>
